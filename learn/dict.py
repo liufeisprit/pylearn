@@ -14,6 +14,3 @@ print(sorted(dic.keys()))
 print('s' not in dic)
 print(dict(a=1,b=2,c=3))
 print(dict([('a',1),('b',2),('c',3)]))
-print({
-  x: x**2 for x in (2,4,6)
-})
