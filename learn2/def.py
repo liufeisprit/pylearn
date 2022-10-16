@@ -22,3 +22,4 @@ def abc4(a,*b,**c):
   print(a,b,c)
 abc4(1,2,3,x=4,y=5)
 abc4(1,*(2,3),**dict(x=4,y=5))
+print(*(2,3),*dict(x=4,y=5))
